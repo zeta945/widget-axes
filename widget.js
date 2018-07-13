@@ -1532,7 +1532,7 @@ cpdefine("inline:com-chilipeppr-widget-xyz", ["chilipeppr_ready", "jquerycookie"
             $('#com-chilipeppr-widget-xyz-ftr .joghomem').click("xyz", this.homeAxis.bind(this));
             $('#com-chilipeppr-widget-xyz-ftr .joggotozerom').click("xyz", this.gotoZeroM.bind(this));
             $('#com-chilipeppr-widget-xyz-ftr .jogzerooutm').click("xyz", this.zeroOutAxisG28.bind(this));
-            $('#com-chilipeppr-widget-xyz-ftr .joghomemy').click("y", this.homeAxis.bind(this));
+            $('#com-chilipeppr-widget-xyz-ftr .joghomemxy').click("xy", this.homeAxis.bind(this));
 
             // setup base value increment buttons
             $('#com-chilipeppr-widget-xyz-ftr .jogincr1').click({
